@@ -17,7 +17,7 @@ var reverseString = function(s) {
         k++; 
     }
     
-    for (i=0; i<s.length;i++)
+    for (i=0; i<s.length;i++){
         s[i]=j[i]
-   
+    }
 };
