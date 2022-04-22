@@ -2,45 +2,45 @@
  * @param {character[]} s
  * @return {void} Do not return anything, modify s in-place instead.
  */
-// var reverseString = function(s) {
+var reverseString = function(s) {
  
     
 
-//     let k= 0;
-//     let i = s.length-1;
+    let k= 0;
+    let i = s.length-1;
     
-//     let j= [];
+    let j= [];
     
-//     while (i>=0){
-//         j.push(s[i]);
-//         i--;
-//         k++; 
-//     }
+    while (i>=0){
+        j.push(s[i]);
+        i--;
+        k++; 
+    }
     
-//     for (i=0; i<s.length;i++){
-//         s[i]=j[i]
-//     }
-    
-    
+    for (i=0; i<s.length;i++){
+        s[i]=j[i]
+    }
     
     
-// };
-
-
-
-
-
-var reverseString = function(s) {
-    let pointer1 = 0;
-    let pointer2 = s.length-1;
-
-    while(pointer1<pointer2){
-
-    let temp=s[pointer1];
-    s[pointer1]=s[pointer2];
-    s[pointer2]=temp;
     
-    pointer1++;
-    pointer2--;
-}
+    
 };
+
+
+
+
+
+// var reverseString = function(s) {
+//     let i = 0;
+//     let k = s.length-1;
+
+//     while(i<k){
+
+//     let temp=s[i];
+//     s[i]=s[k];
+//     s[k]=temp;
+    
+//     i++;
+//     k--;
+// }
+// };
