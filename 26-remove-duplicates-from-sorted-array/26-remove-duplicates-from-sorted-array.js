@@ -29,7 +29,7 @@ var removeDuplicates = function(nums) {
     for (j=1;j<nums.length;j++){
      
        if (nums[j]===nums[i]){
-           continue
+           //continue
        } else {
            i += 1;
            nums[i]=nums[j]
